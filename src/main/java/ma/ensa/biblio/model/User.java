@@ -14,8 +14,8 @@ public class User {
     private String name;
     private String mail;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Borrow> borrows = new ArrayList<>();
+//    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+//    private List<Borrow> borrows = new ArrayList<>();
 
 //    @ManyToMany(cascade = CascadeType.PERSIST)
 //    private List<Document> documents;

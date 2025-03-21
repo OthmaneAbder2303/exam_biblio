@@ -13,8 +13,8 @@ public abstract class Document {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToMany(mappedBy = "document", cascade = CascadeType.ALL)
-    private List<Borrow> borrows = new ArrayList<>();
+//    @OneToMany(mappedBy = "document", cascade = CascadeType.ALL)
+//    private List<Borrow> borrows = new ArrayList<>();
 
 //    @ManyToMany(mappedBy = "documents", cascade = CascadeType.PERSIST)
 //    private List<User> users;
